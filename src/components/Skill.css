@@ -1,0 +1,203 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* position: relative; */
+    height: 100vh;
+    /* border: 1px solid; */
+}
+
+.skill {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+
+.skill::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 5px dashed #00e5ff;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+
+.skill:hover::before {
+    opacity: 1;
+    animation: rotate 6s linear infinite;
+}
+
+.skill:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 0 40px rgba(0, 229, 255, 0.35);
+}
+
+
+.skill img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.html {
+    position: absolute;
+    left: 0;
+    top: 10%;
+
+}
+
+.css {
+    position: absolute;
+    left: 13%;
+    top: 40%;
+
+
+}
+
+.js {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+
+}
+
+.bootstrap {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+
+}
+
+.jquery {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+.react {
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.mysql {
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+
+.mongodb {
+    position: absolute;
+    left: 70%;
+    top: 75%;
+}
+
+.nodejs {
+    position: absolute;
+    left: 85%;
+    top: 50%;
+}
+
+.expresss {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+
+@media (max-width:500px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* position: relative; */
+        height: 130vh;
+        /* border: 1px solid; */
+    }
+
+    .html {
+        position: absolute;
+        left: 1%;
+        top: 20%;
+
+    }
+
+    .css {
+        position: absolute;
+        left: 14%;
+        top: 46%;
+
+    }
+
+    .js {
+        position: absolute;
+        left: 34%;
+        top: 25%;
+
+
+    }
+
+    .bootstrap {
+        position: absolute;
+        right: 24%;
+        top: 51%;
+
+    }
+
+    .jquery {
+        position: absolute;
+        left: 67%;
+        top: 76%;
+    }
+
+    .react {
+        position: absolute;
+        left: 1%;
+        top: 75%;
+    }
+
+    .mysql {
+        position: absolute;
+        left: 67%;
+        top: 103%;
+    }
+
+    .mongodb {
+        position: absolute;
+        left: 13%;
+        top: 102%;
+    }
+
+    .nodejs {
+        position: absolute;
+        left: 35%;
+        top: 80%;
+    }
+
+    .expresss {
+        position: absolute;
+        left: 67%;
+        top: 26%;
+    }
+}

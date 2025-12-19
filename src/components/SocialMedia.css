@@ -1,0 +1,62 @@
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons a {
+    width: 42px;
+    height: 42px;
+    background: #020e18;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.icons a:hover {
+    background: #00e5ff;
+    color: #000;
+    transform: scale(1.1, 1.1);
+
+}
+
+
+/* ===========================
+   SOCIAL ICONS – MOBILE
+=========================== */
+
+@media (max-width: 500px) {
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #f1f5f9;
+        transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .social-icon svg {
+        font-size: 20px;
+    }
+
+    /* Touch feedback */
+    .social-icon:active {
+        transform: scale(0.9);
+        background: #e2e8f0;
+    }
+}
