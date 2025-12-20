@@ -3,7 +3,7 @@ import './Skill.css'
 import html from '../images/html2.png';
 import css from '../images/css4.png'
 import js from '../images/js.png'
-import bootstrap from '../images/bootstrap.png'
+import bootstrap from '../images/Bootstrap.png'
 import jquery from '../images/jquery2.png'
 import react from '../images/React1.png'
 import mysql from '../images/mysql.png'
