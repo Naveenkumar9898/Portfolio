@@ -2,6 +2,7 @@ import React from "react";
 
 import { FaLocationDot } from "react-icons/fa6";
 import "./Home.css";
+import naveen from '../images/naveen.jpeg'
 
 
 import SocialMedia from "./SocialMedia";
@@ -22,7 +23,7 @@ function Home() {
                 <div className="hero-left">
                     <div className="doteline">
                         <div className="profile-ring">
-                            <img src="https://cdn.suitsupply.com/image/upload/ar_10:21,b_rgb:efefef,bo_200px_solid_rgb:efefef,c_pad,g_north,w_2600/b_rgb:efefef,c_lfill,g_north,dpr_1,w_768,h_922,f_auto,q_auto,fl_progressive/products/Suits/default/Winter/P7117_1.jpg" alt="Kunj Desai" />
+                            <img src={naveen} alt="naveen" />
                         </div>
                     </div>
                 </div>

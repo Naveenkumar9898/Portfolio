@@ -24,9 +24,7 @@
 }
 
 
-/* ===========================
-   SOCIAL ICONS – MOBILE
-=========================== */
+
 
 @media (max-width: 500px) {
 
@@ -37,6 +35,13 @@
         flex-wrap: wrap;
         gap: 14px;
         margin-top: 20px;
+    }
+
+    .icons link:hover {
+        background: #00e5ff;
+        color: #000;
+        transform: scale(1.1, 1.1);
+
     }
 
     .social-icon {
@@ -54,9 +59,10 @@
         font-size: 20px;
     }
 
-    /* Touch feedback */
+
     .social-icon:active {
         transform: scale(0.9);
         background: #e2e8f0;
+
     }
 }
