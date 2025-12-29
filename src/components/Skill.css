@@ -132,72 +132,71 @@
         justify-content: center;
         flex-wrap: wrap;
         /* position: relative; */
-        height: 130vh;
+        height: 150vh;
         /* border: 1px solid; */
     }
 
     .html {
         position: absolute;
         left: 1%;
-        top: 20%;
+        top: 17%;
 
     }
 
     .css {
         position: absolute;
-        left: 14%;
-        top: 46%;
+        left: 52%;
+        top: 25%;
 
     }
 
     .js {
         position: absolute;
-        left: 34%;
-        top: 25%;
+        left: 5%;
+        top: 47%;
 
 
     }
 
     .bootstrap {
         position: absolute;
-        right: 24%;
-        top: 51%;
+        right: 10%;
+        top: 56%;
 
     }
 
     .jquery {
         position: absolute;
-        left: 67%;
+        left: 5%;
         top: 76%;
     }
 
     .react {
         position: absolute;
-        left: 1%;
-        top: 75%;
+        left: 51%;
+        top: 91%;
     }
 
     .mysql {
         position: absolute;
-        left: 67%;
+        left: 57%;
         top: 103%;
     }
 
     .mongodb {
         position: absolute;
         left: 13%;
-        top: 102%;
+        top: 125%;
     }
 
     .nodejs {
         position: absolute;
-        left: 35%;
-        top: 80%;
+        left: 8%;
+        top: 104%;
     }
 
     .expresss {
         position: absolute;
-        left: 67%;
-        top: 26%;
+        top: 80%;
     }
 }
