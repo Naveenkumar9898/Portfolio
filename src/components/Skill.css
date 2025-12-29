@@ -132,14 +132,14 @@
         justify-content: center;
         flex-wrap: wrap;
         /* position: relative; */
-        height: 150vh;
+        height: 170vh;
         /* border: 1px solid; */
     }
 
     .html {
         position: absolute;
-        left: 1%;
-        top: 17%;
+        left: 4%;
+        top: 19%;
 
     }
 
@@ -161,7 +161,7 @@
     .bootstrap {
         position: absolute;
         right: 10%;
-        top: 56%;
+        top: 54%;
 
     }
 
@@ -174,29 +174,32 @@
     .react {
         position: absolute;
         left: 51%;
-        top: 91%;
+        top: 82%;
     }
 
     .mysql {
         position: absolute;
-        left: 57%;
-        top: 103%;
+        left: 54%;
+        top: 145%;
     }
 
     .mongodb {
         position: absolute;
-        left: 13%;
-        top: 125%;
+        left: 10%;
+        top: 133%;
     }
+}
 
-    .nodejs {
-        position: absolute;
-        left: 8%;
-        top: 104%;
-    }
+.nodejs {
+    position: absolute;
+    left: 8%;
+    top: 104%;
+}
 
-    .expresss {
-        position: absolute;
-        top: 80%;
-    }
+.expresss {
+    position: absolute;
+    left: 54%;
+
+    top: 116%;
+
 }
