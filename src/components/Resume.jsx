@@ -1,10 +1,10 @@
 import "./Resume.css";
-import pdf from '../resume-pdf/resume.pdf'
+import pdf from '../resume-pdf/Resume.pdf'
 
 function Resume() {
 
-    const height = " 900px";
-    const width = " 80%";
+    const height = "900px";
+    const width = "80%";
 
     return (
         <>
@@ -92,7 +92,7 @@ function Resume() {
             </div>
             <div className="resumepdf">
 
-                <iframe src={pdf} frameborder="0" width={width} height={height}></iframe>
+                <iframe src={pdf} width={width} height={height}></iframe>
             </div>
         </>
     );
