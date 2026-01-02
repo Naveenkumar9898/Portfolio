@@ -229,10 +229,15 @@
     position: absolute;
     left: 737px;
     /* top: 43%; */
-    width: 2%;
-    height: 2%;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     z-index: 1;
+}
+
+.resumepdf {
+    text-align: center;
+    padding: 30px;
 }
 
 
