@@ -99,7 +99,7 @@ function Projects() {
                         <div className="actions">
                             {/* <button className="code">Code</button> */}
                             <Link
-                                to="https://www.linkedin.com/in/naveenkumar-r-89a04238b"
+                                to="https://naturehoney.vercel.app/"
                                 target="_blank"
                                 aria-label="GitHub" className="live"
                             > Live
