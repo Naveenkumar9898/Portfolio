@@ -38,7 +38,7 @@ function About() {
                         </div>
                         <div className="card-details">
                             <p className="institution">V.V.C.E.T (Anna University) — Thottiyam, Trichy</p>
-                            <p>4th Year (Pursuing) | GPA: 8.0</p>
+                            <p>GPA : </p>
                             <p className="date">2022 - 2025</p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ function About() {
                         </div>
                         <div className="card-details">
                             <p className="institution">M.I.T  — musiri,Trichy</p>
-                            <p>Percentage: 78%</p>
+                            <p>Percentage : 78%</p>
                             <p className="date">Completed in 2021</p>
                         </div>
                     </div>

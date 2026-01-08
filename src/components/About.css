@@ -72,8 +72,8 @@
 }
 
 .card-details p {
-    margin: 5px 0;
-    padding-left: 39px;
+    margin: 0 auto;
+    /* padding-left: 20px; */
     font-size: 15px;
     color: #a0a8b3;
 }
