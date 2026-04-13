@@ -1,5 +1,5 @@
 import "./Resume.css";
-import pdf from '../resume-pdf/Resume.pdf'
+import pdf from '../resume-pdf/Naveenkumar-Resume.pdf'
 
 function Resume() {
 
